@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+    main {
+        height: 100%;
+        text-align: center;
+    }
+    fieldset {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 10% 38%;
+        border-style:groove;
+        border-radius: 10px;
+    }
+    
+    div {
+        padding: 10px
+    }
+    body{
+        background-color: aliceblue;
+    }
+    footer{
+        font-size: 10px;
+        height: 10px;
+        text-align: right;
+        padding-top: 100px;
+    }
+</style>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <Fieldset>
+                <legend>
+                    <h2>LOGIN</h2>
+                </legend>
+                <form method="POST" action="validar.php">
+                    <div><label>USUARIO: <input type="text" name="conta" size="20" required></label></div>
+                    <div><label>SENHA: <input type="password" name="senha" size="20" required></label></div>
+                    <button>Entrar</button>
+                    <div><a href="cad_conta.php">Cadastrar</a></div>
+                </form>
+            </Fieldset>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Luis Gustavo
+    </footer>
+</body>
+
+</html>
